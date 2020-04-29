@@ -3,5 +3,5 @@ WORKDIR /app
 COPY package.json /app
 RUN npm install
 COPY . /app
-CMD node index.js
+CMD node nodedemogt.js
 EXPOSE 8084
